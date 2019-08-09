@@ -1,0 +1,51 @@
+.grow-div{
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	display:inline-block;
+	transition-property: width; border-radius, transform; background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+.grow-div:hover{
+	width: 200px;
+	border-radius: 15px 0px 0px 0px;
+	transform: rotate (360deg);
+	background-color: purple;
+
+}
+
+.shake-div {
+	width: 100px;
+	height: 50px;
+	display: block; 
+	margin-top; 100px;
+	background-color: teal;
+}
+
+.shake-div:hover{
+	animation: shake 1s linear infinite;
+	animation-direction: reverse;
+}
+
+@keyframes shake{
+0%{ 
+
+}
+
+25% {
+	transform: rotateZ(-30deg)
+
+}
+50% {
+
+
+}
+
+75%{
+	transform: rotateZ(30deg);
+}
+100%
+
+}

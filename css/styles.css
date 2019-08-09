@@ -1,0 +1,85 @@
+body { 
+background-color: #9aabb1;
+
+height: 100vh;
+width: 100vw;
+margin: 0 auto;
+font-family: 'Fjalla One', sans-serif;
+
+}
+
+#poster {
+  background: #DBE0D4;
+  width: 100%;
+  height: calc(100vw * 1.4);
+  max-width: 600px;
+  max-height: 840px;
+  margin: 5vh auto;
+  /*box-shadow: 6px 6px 10px #141514; OPTIONAL: shadow for the frame*/
+  /* overflow: hidden;  OPTIONAL: hides parts that spill from the frame*/
+}
+
+.design-container { 
+	height: 65%;
+	width:50%;
+	margin-top: 6%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color:#993D51;
+	transform: rotate(25deg);
+
+ }
+
+
+.title 
+ { background-color:#513B56;
+ 	height: 25%;
+	width:100%;
+	color: white;
+	position: relative;
+ }
+
+.title h1{
+	bottom:0; 
+	position: absolute;
+
+} 
+
+ .info 
+ { background-color:#2C1320;
+ 		height: 25%;
+		width:100%;
+		display: flex;
+		position: relative;
+
+ }
+
+ .info-box
+ { background-color:#2C1320;
+   width: 25%;
+   height: 100%;
+
+ }
+
+.info-box text { 
+
+	bottom:0; 
+	position: absolute;
+	color: white;
+
+ } 
+
+ .purple-div
+ { background-color:#EDD9D4;
+ 	height: 25%;
+		width:100%;
+
+ }
+
+ .black-div {
+ 	background-color:#F4ACB7;
+ 	height: 25%;
+		width:100%;
+
+ }
+
